@@ -1,0 +1,24 @@
+npm init --> crea el archivo package.json con -Y lo crea con los valores por defecto
+		-> tiene informacion como el autor, la version, una descripcion entre otross
+
+npm run ScriptName --> Se usa para ejecutar los scripts declarados en el package.json
+
+dependencias --> son los paquetes necesarios para que se ejecute la aplicacion
+
+devDependencies --> son los paquetes de dependencias necesarios para el entorno de desarrollo
+
+package-lock.json --> es otro archivo que contiene la informacion de la app como las dependencias la version entre otros NO SE DEBE MODIFICAR
+
+npm install paquete --save-dev --> para instalar paquetes que seran necesarion solo en el desarrollo de la aplicacion
+
+npm install paquete@version --> para instalar una version especifica del paquete 
+
+npm update --> actualiza TODAS las dependencias que hay en el package.json
+
+
+DEPENDENCIAS
+
+npm install yargs --> paquete para construir lineas de comando interactivas
+			yargs puede configurar los argumentos que recibe la aplicacion 
+			yargs .options --> funcion para declarar las opciones de app, las abreviaturas el tipo etc
+			yargs .check --> funcion para hacer las validaciones necesarias en las opciones siempre debe retornar true
